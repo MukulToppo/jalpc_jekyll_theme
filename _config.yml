@@ -11,13 +11,13 @@ url: "http://www.mukultoppo.com"
 
 # author
 author:
-  name: 'Jack'
-  first_name: 'Jia'
-  last_name: 'Kun'
-  email: 'jack19890614@gmail.com'
+  name: 'MToppo'
+  first_name: 'Mukul'
+  last_name: 'Toppo'
+  email: 'mukul.toppo@gmail.com'
   facebook_username: 'jiakunnj'
-  github_username: 'Jack614'
-  head_img: 'static/img/landing/Jack.jpg'
+  github_username: 'MukulToppo'
+  head_img: 'static/img/landing/MToppo.jpg'
 
 # landing page
 landing:
