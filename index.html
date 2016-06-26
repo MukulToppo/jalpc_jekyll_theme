@@ -27,9 +27,6 @@ permalink: /
                         <li>
                             <a class="btn btn-sm set_en"><img src="{{"static/img/flags/United-States.png"| prepend: site.baseurl }}" height="16px" width="16px"></a>
                         </li>
-                        <li>
-                            <a class="btn btn-sm set_cn"><img src="{{"static/img/flags/China.png"| prepend: site.baseurl }}" height="16px" width="16px"></a>
-                        </li>
 
                     </ul>
                 </div>
@@ -210,7 +207,7 @@ permalink: /
         <div class="row features-block">
           <div class="row">
             <div class="col-lg-1 col-lg-offset-2 features-text wow fadeInLeft">
-              <p>Python</p>
+              <p>JavaScript</p>
             </div>
             <div class="col-lg-7 features-text wow fadeInLeft">
                 <div class="progress progress-bar-default">
@@ -234,7 +231,7 @@ permalink: /
           </div>
           <div class="row">
             <div class="col-lg-1 col-lg-offset-2 features-text wow fadeInLeft">
-              <p>Linux</p>
+              <p>Java</p>
             </div>
             <div class="col-lg-7 features-text wow fadeInLeft">
                 <div class="progress progress-bar-default">
@@ -246,7 +243,7 @@ permalink: /
           </div>
           <div class="row">
             <div class="col-lg-1 col-lg-offset-2 features-text wow fadeInLeft">
-              <p>Bash Shell</p>
+              <p>CSS</p>
             </div>
             <div class="col-lg-7 features-text wow fadeInLeft">
                 <div class="progress progress-bar-default">
@@ -255,6 +252,20 @@ permalink: /
                     </div>
                 </div>
             </div>
+
+          </div>
+          <div class="row">
+            <div class="col-lg-1 col-lg-offset-2 features-text wow fadeInLeft">
+              <p>AngularJS</p>
+            </div>
+            <div class="col-lg-7 features-text wow fadeInLeft">
+                <div class="progress progress-bar-default">
+                    <div style="width: 70%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="60" role="progressbar" class="progress-bar">
+                        <span class="sr-only">65% Complete (success)</span>
+                    </div>
+                </div>
+            </div>
+
           </div>
         </div>
     </div>
@@ -494,23 +505,6 @@ permalink: /
 
                 // $('.set_en').addClass('active');
                 // $('.set_cn').removeClass('active');
-            });
-        });
-
-        $('.set_cn').on('click', function (){
-            i18n.setLng('cn', function(){
-                $('.i18container').i18n();
-                // $('#i18_title').i18n();
-                $('#i18_navbar').i18n();
-                $('#i18_about_me').i18n();
-                $('#i18_skills').i18n();
-                $('#i18_projects').i18n();
-                $('#i18_career').i18n();
-                $('#i18_blog').i18n();
-                $('#i18_contact').i18n();
-
-                // $('.set_cn').addClass('active');
-                // $('.set_en').removeClass('active');
             });
         });
 
